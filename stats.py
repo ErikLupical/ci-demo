@@ -31,7 +31,6 @@ def variance(data):
     >>> variance([1000000, 1000004])
     4.0
     """
-    # ugly code.
     if len(data) == 0:
         raise ValueError("List must contain at least one value")
     avg = average(data)
